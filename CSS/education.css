@@ -1,0 +1,110 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: Arial, sans-serif;
+    background-color: #1c1f2b;
+    color: #fff;
+}
+
+header {
+    display: flex;
+    justify-content: space-between;
+    padding: 35px;
+    background-color: #111;
+}
+
+.logo {
+    display: flex;
+    align-items: center;
+    position: absolute;
+    top: 20px;
+}
+
+.logo-img {
+    width: 70px; /* Adjust the size as needed */
+    height: auto;
+    margin-right: 15px; /* Space between logo image and text */
+    border-radius: 50%;
+}
+
+.logo h1 {
+    font-size: 30px;
+    color: #00bfff;
+}
+
+.nav-links {
+    display: flex;
+    list-style: none;
+    position: relative;
+    left: 400px;
+    top: 10px;
+}
+
+.nav-links li {
+    margin: 0 50px;
+}
+
+.nav-links a {
+    text-decoration: none;
+    color: #fff;
+    font-size: 20px;
+    transition: color 0.3s;
+
+}
+
+.nav-links a:hover {
+    color: #00bfff;
+}
+
+.contact-btn {
+    background-color: #0e7fa4;
+    padding: 15px 25px;
+    border-radius: 25px;
+    text-decoration: none;
+    color: #fff;
+    transition: background-color 0.3s;
+    position: relative;
+    left: 1300px;
+    top: -10px;
+}
+
+.contact-btn:hover {
+    background-color: #0b68a6;
+}
+.education-container {
+    padding: 50px;
+    text-align: left;
+    max-width: 800px;
+    margin: 0 auto;
+    color: white;
+}
+
+.education-container h2 {
+    text-align: center;
+    font-size: 36px;
+    color: #00bfff;
+    margin-bottom: 20px;
+}
+
+.education-item {
+    background: #222;
+    padding: 20px;
+    border-radius: 10px;
+    margin-bottom: 20px;
+    border: 2px solid #00bfff;
+    box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.2);
+}
+
+.education-item h3 {
+    font-size: 24px;
+    color: white;
+}
+
+.education-item p {
+    font-size: 18px;
+    color: #ccc;
+}
